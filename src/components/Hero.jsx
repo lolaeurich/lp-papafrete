@@ -21,7 +21,7 @@ const Hero = () => {
                     </button>
                 </div>
                 <div className="basis-1/2">
-                    <img src="src/assets/heroImage.png" alt="" className={'w-full right-6 pt-3'}/>
+                    <img src="src/assets/heroimage.png" alt="" className={'w-full right-6 pt-3'}/>
                 </div>
             </div>
         </section>
