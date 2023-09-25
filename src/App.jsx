@@ -7,7 +7,9 @@ const App = () => {
     <>
     <Navbar />
     <Hero />
-    <Comments />
+    <div className={'w-full drop-shadow-md bg-gray-200 h-[500px]'}>
+      <Comments />
+    </div>
     </>
   );
 }
