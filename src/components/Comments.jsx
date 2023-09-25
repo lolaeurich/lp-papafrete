@@ -5,7 +5,7 @@ import comentarios from "/src/assets/comentarios.png"
 const Comments = () => {
     return(
         <>
-        <section className="bg-gray-200 drop-shadow-md w-full h-[500px]">
+        <section className="bg-gray-200 drop-shadow-md w-full h-auto">
            <div className="container flex flex-row justify-between align-center">
             <div className="relative basis-1/2">
                 <img src={mapa} alt="" className={'z-0 w-full h-[480px] right-6 pt-3'}></img>
