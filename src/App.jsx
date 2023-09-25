@@ -7,7 +7,7 @@ const App = () => {
     <>
     <Navbar />
     <Hero />
-    <div className={'w-full drop-shadow-md bg-gray-200 h-[500px]'}>
+    <div className={'w-full drop-shadow-md bg-gray-200 h-[550px]'}>
       <Comments />
     </div>
     </>
