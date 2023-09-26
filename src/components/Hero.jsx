@@ -4,9 +4,9 @@ import heroimage from "/src/assets/heroimage.png"
 const Hero = () => {
     return (
         <>
-        <section className="bg-white h-[550px] max-w-full py-12">
-            <div className="container flex flex-row justify-between align-center">
-                <div className="direction-column basis-1/2 pl-12 pb-12 pt-12 content-center items-center">
+        <section className="bg-white h-96 max-w-full py-8">
+            <div className="container flex flex-row">
+                <div className="direction-column basis-1/2 pl-12 content-center items-center">
                     <p className="mb-1 text-black text-xl font-medium">Em todos os cantos do país</p>
                     <h1 className="mb-5 text-yellow-500 text-5xl font-bold">
                         Quer enviar?<br/>
@@ -21,8 +21,8 @@ const Hero = () => {
                         Cadastre-se
                     </button>
                 </div>
-                <div className="basis-1/2">
-                    <img src={heroimage} alt="" className={'w-full right-6 pt-3'}/>
+                <div className="basis-1/2 pl-20">
+                    <img src={heroimage} alt="" className={'w-auto h-10/12 right-6'}/>
                 </div>
             </div>
         </section>
