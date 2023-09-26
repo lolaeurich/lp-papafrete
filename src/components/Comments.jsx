@@ -8,8 +8,8 @@ const Comments = () => {
         <section className="flex justify-center items-center py-4 w-full drop-shadow-md bg-gray-200 h-96">
            <div className="container flex justify-center align-center">
                 <div className="relative direction-column basis-1/2 h-fit">
-                    <img src="assets/mapa.png" alt="" className={'absolute w-10/12 h-80'}></img>
-                    <img src="assets/comentarios.png" alt="" className={"absolute w-10/12 h-8/12"} style={{
+                    <img src="src/assets/mapa.png" alt="" className={'absolute w-10/12 h-80'}></img>
+                    <img src="src/assets/comentarios.png" alt="" className={"absolute w-10/12 h-8/12"} style={{
                         transform: "translate(-50%, 0)",
                         left: "50%"
                     }}></img>
