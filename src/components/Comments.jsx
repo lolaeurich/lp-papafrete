@@ -11,7 +11,6 @@ const Comments = () => {
                     <img src={mapa} alt="" className={'absolute w-10/12 h-80'}></img>
                     <img src={comentarios} alt="" className={"absolute w-10/12 h-10/12"} style={{
                         transform: "translate(-50%, 0)",
-                        // top: "50%",
                         left: "50%"
                     }}></img>
                 </div>
