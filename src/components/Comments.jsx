@@ -1,6 +1,6 @@
 import React from "react"
-import mapa from "/src/assets/mapa.png"
-import comentarios from "/src/assets/comentarios.png"
+// import mapa from "/src/assets/mapa.png"
+// import comentarios from "/src/assets/comentarios.png"
 
 const Comments = () => {
     return(
