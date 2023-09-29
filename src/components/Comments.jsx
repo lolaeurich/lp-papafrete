@@ -14,7 +14,7 @@ const Comments = () => {
                         left: "50%"
                     }}></img>
                 </div>
-                <div className="direction-column basis-1/2 pl-8 pt-8 content-center items-center">
+                <div className="direction-column basis-1/2 pl-8 pt-4 content-center items-center">
                     <h1 className="mb-5 text-3xl font-bold">O que nossos usuários dizem?</h1>
                     <p className="text-sm font-normal">
                         Lorem ipsum dolor sit amet, 
