@@ -4,6 +4,8 @@ import Comments from "./components/Comments.jsx";
 import WhatWeDo from "./components/WhatWeDo.jsx";
 import HowItWork from "./components/HowItWork.jsx";
 import WhoWeAre from "./components/WhoWeAre.jsx";
+import ContactUs from "./components/ContactUs.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
     <WhatWeDo />
     <HowItWork />
     <WhoWeAre />
+    <ContactUs />
+    <Footer />
     </>
   );
 }

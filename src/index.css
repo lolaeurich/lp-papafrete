@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.triangle {
+  position: relative;
+  background: #85168;
+}
+
+.triangle::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 67px 67px 0 67px;
+  border-color: rgb(8 51 68 / var(--tw-bg-opacity)) transparent transparent transparent;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+}
+
+.full-height {background: rgb(234 179 8);}
