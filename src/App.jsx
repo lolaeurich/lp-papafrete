@@ -6,6 +6,7 @@ import HowItWork from "./components/HowItWork.jsx";
 import WhoWeAre from "./components/WhoWeAre.jsx";
 import ContactUs from "./components/ContactUs.jsx";
 import Footer from "./components/Footer.jsx";
+import Copyright from "./components/Copyright.jsx";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
     <WhoWeAre />
     <ContactUs />
     <Footer />
+    <Copyright />
     </>
   );
 }

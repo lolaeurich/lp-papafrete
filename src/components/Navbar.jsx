@@ -1,9 +1,10 @@
 import React from "react"
-// import logonova from "/src/assets/logonova.png"
+
+
 
 const Navbar = () => {
   return (
-     <div className="drop-shadow-md w-full">
+     <div id="nav" className="drop-shadow-md w-full">
         <div className="md:flex items-center justify-between bg-white py-4 md:px-16 px-7">
           <div className="cursor-pointer">
             <img className={'h-7 lg:h-14'} src="/assets/logonova.png" alt=""/>
