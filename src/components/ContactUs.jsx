@@ -3,7 +3,7 @@ import React from "react";
 const ContactUs = () => {
     return(
         <>
-        <section className="bg-cyan-950 flex flex-row w-full h-96">
+        <section className="bg-cyan-950 flex flex-row w-full h-96 max-w-5xl">
             <div className="flex flex-col basis-1/3 pt-8">
                 <div className="flex flex-col basis-2/3 content-center items-center px-8">
                     <h2 className="text-3xl text-white font-semibold mb-8 pr-4">Fale <span className="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-600 bg-[length:100%_4px] bg-no-repeat bg-bottom">conosco!</span></h2>

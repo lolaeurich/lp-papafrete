@@ -4,8 +4,8 @@ import React from "react"
 const Hero = () => {
     return (
         <>
-        <section className="bg-white lg:h-96 lg:max-w-full lg:py-8">
-            <div className="container flex flex-row">
+        <section className="bg-white h-96 py-8 max-w-5xl">
+            <div className="container flex flex-row max-w-5xl">
                 <div className="direction-column basis-1/2 pl-12 content-center items-center">
                     <p className="mb-1 text-black text-xl font-medium">Em todos os cantos do país</p>
                     <h1 className="mb-5 text-yellow-500 text-5xl font-bold">

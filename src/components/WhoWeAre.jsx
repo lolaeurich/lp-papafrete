@@ -5,7 +5,7 @@ const WhoWeAre = () => {
 
     return(
         <>
-        <section className="container bg-white flex flex-row w-full h-96">
+        <section className="container bg-white flex flex-row w-full h-96 max-w-5xl">
             <div className="basis-1/2 py-4 px-8 w-full h-96">
                 <img src="/assets/quemsomos.png" className="w-10/12 h-10/12"></img>
             </div>

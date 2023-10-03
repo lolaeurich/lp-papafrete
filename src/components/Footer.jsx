@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
     return(
         <>
-        <section className="triangle w-full h-8 bg-cyan-950"></section>
-        <section className="full-height flex bg-yellow-500 h-96">
+        <section className="triangle w-full h-8 bg-cyan-950 max-w-5xl"></section>
+        <section className="full-height flex bg-yellow-500 h-96 max-w-5xl">
             <div className="flex h-full w-full">
                 <div className="flex basis-1/3 flex-col pt-8 mt-4 justify-around">
                     <div className="flex flex-row justify-center">
