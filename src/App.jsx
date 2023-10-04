@@ -11,15 +11,17 @@ import Copyright from "./components/Copyright.jsx";
 const App = () => {
   return (
     <>
-    <Navbar />
-    <Hero />
-    <Comments />
-    <WhatWeDo />
-    <HowItWork />
-    <WhoWeAre />
-    <ContactUs />
-    <Footer />
-    <Copyright />
+    <div className="2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center">
+      <Navbar />
+      <Hero />
+      <Comments />
+      <WhatWeDo />
+      <HowItWork />
+      <WhoWeAre />
+      <ContactUs />
+      <Footer />
+      <Copyright />
+    </div>
     </>
   );
 }
