@@ -3,11 +3,11 @@ import React from "react";
 const ContactUs = () => {
     return(
         <>
-        <section className="bg-cyan-950 flex flex-row w-full h-96 max-w-5xl">
+        <section className="bg-cyan-950 flex flex-row w-full h-96 max-w-screen-2xl xl:h-[520px]">
             <div className="flex flex-col basis-1/3 pt-8">
                 <div className="flex flex-col basis-2/3 content-center items-center px-8">
-                    <h2 className="text-3xl text-white font-semibold mb-8 pr-4">Fale <span className="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-600 bg-[length:100%_4px] bg-no-repeat bg-bottom">conosco!</span></h2>
-                    <p className="text-xs text-white">
+                    <h2 className="text-3xl text-white font-semibold mb-8 pr-4 xl:text-5xl">Fale <span className="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-600 bg-[length:100%_4px] bg-no-repeat bg-bottom">conosco!</span></h2>
+                    <p className="text-xs text-white xl:text-base">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Pellentesque lacinia sed dolor sed varius. 
                     Mauris vel sem vitae ante blandit sodales.<br/>
@@ -20,15 +20,15 @@ const ContactUs = () => {
                     </p>
                 </div>
                 <div className="flex flex-row basis-1/3 content-center items-center justify-around px-8">
-                    <img src="/assets/facebook.png" alt="" className="w-8 h-8 rounded-[50%] animate-bounce shadow-md shadow-yellow-600"></img>
-                    <img src="/assets/tt.png" alt="" className="w-8 h-8 rounded-[50%] animate-bounce shadow-md shadow-yellow-600"></img>
-                    <img src="/assets/instagram.png" alt="" className="w-8 h-8 rounded-[50%] animate-bounce shadow-md shadow-yellow-600"></img>
+                    <img src="/assets/facebook.png" alt="" className="w-8 h-8 rounded-[50%] animate-bounce shadow-md shadow-yellow-600 xl:w-12 xl:h-12"></img>
+                    <img src="/assets/tt.png" alt="" className="w-8 h-8 rounded-[50%] animate-bounce shadow-md shadow-yellow-600 xl:w-12 xl:h-12"></img>
+                    <img src="/assets/instagram.png" alt="" className="w-8 h-8 rounded-[50%] animate-bounce shadow-md shadow-yellow-600 xl:w-12 xl:h-12"></img>
                 </div>
             </div>
-            <div className="flex relative justify-end basis-2/3 py-4 px-4">
-                <div className="bg-white z-0 absolute flex-col rounded-lg h-80 w-96">
+            <div className="flex relative justify-end basis-2/3 py-4 px-4 xl:pt-12">
+                <div className="bg-white z-0 absolute flex-col rounded-lg h-80 w-96 xl:h-96">
                     <div className="flex justify-center pl-28">
-                        <img src="/assets/contactform.png" alt="" className="w-60 h-50 mt-4"></img>
+                        <img src="/assets/contactform.png" alt="" className="w-60 h-50 mt-4 xl:mt-10"></img>
                     </div>
                     <div className="flex flex-col basis-1/2 gap-2">
                         <div className="flex justify-center pl-24">
@@ -45,15 +45,15 @@ const ContactUs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col justify-center content-center items-center z-30 bg-slate-200 rounded-lg h-[90%] w-96 mr-[270px] mt-8">
-                    <h2 className="text-xl font-semibold mb-1">Em que podemos ajudar?</h2>
-                    <p className="text-sm mb-4">We are here for you! How can we help you?</p>
-                    <form className="flex flex-col mb-">
+                <div className="flex flex-col justify-center content-center items-center z-30 bg-slate-200 rounded-lg h-[90%] w-96 mr-[270px] mt-8 xl:mt-12">
+                    <h2 className="text-xl font-semibold mb-1 xl:text-2xl">Em que podemos ajudar?</h2>
+                    <p className="text-sm mb-4 xl:text-lg">We are here for you! How can we help you?</p>
+                    <form className="flex flex-col">
                         <input className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Nome" name="nome"></input>
                         <input className="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="E-mail" name="email"></input>
-                        <textarea className="shadow mb-4 resize-none appearance-none border rounded w-full h-16 py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline" type="textearea" placeholder="Mensagem" name="mensagem"></textarea>
+                        <textarea className="shadow mb-4 resize-none appearance-none border rounded w-full h-16 py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline xl:mb-12" type="textearea" placeholder="Mensagem" name="mensagem"></textarea>
                     </form>
-                    <button className="bg-yellow-500 hover:bg-white text-black font-semibold hover:text-black py-1 px-6 text-base rounded-md">Enviar</button>
+                    <button className="bg-yellow-500 hover:bg-white text-black font-semibold hover:text-black py-1 px-6 text-base rounded-md xl:text-2xl">Enviar</button>
                 </div>
             </div>
         </section>
