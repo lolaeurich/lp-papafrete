@@ -9,7 +9,7 @@ const Navbar = () => {
   // const HandleRemovePopUp = () => setOpenPopup(false);
 
   return (
-     <div id="nav" className="w-full drop-shadow-md max-w-screen-2xl">
+     <div id="nav" className="w-16 drop-shadow-md max-w-screen-2xl">
         <div className="flex items-center justify-between bg-white py-4 px-16 md:px-16">
           <div className="cursor-pointer">
             <img className={'h-28 md:h-7 lg:h-14 xl:h-18'} src="/assets/logonova.png" alt=""/>
